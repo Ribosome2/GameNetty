@@ -9,3 +9,5 @@ Logs/
 /**/[Bb]in/
 
 Publish/
+Unity/UserSettings
+**/~$*
