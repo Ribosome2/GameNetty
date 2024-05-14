@@ -8,9 +8,16 @@ namespace ET
             
             ClientSenderComponent clientSenderComponent = root.AddComponent<ClientSenderComponent>();
             
-            long playerId = await clientSenderComponent.LoginAsync(account, password);
+            var response  = await clientSenderComponent.LoginAsync(account, password);
+
+            if (response.Error != ErrorCode.ERR_Success)
+            {
+             
+                Log.Error($"response Error{response.Error}");
+                return;    
+            }
             
-            Log.Info($"Login success playerId:{playerId}");
+            // Log.Info($"Login success playerId:{playerId}");
 
             // root.GetComponent<PlayerComponent>().MyId = playerId;
             //
