@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-05-14T03:54:50.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="eSRGIwBYleAVmQJWZYZu" version="24.4.0" type="device">
+<mxfile host="Electron" modified="2024-05-14T07:43:28.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6yekNmycZgWCn5cFR7M6" version="24.4.0" type="device">
   <diagram name="第 1 页" id="FMP3942vVoAkyzEO4C84">
     <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
         <mxCell id="33rp73bKP2H85NoBWVEx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="33rp73bKP2H85NoBWVEx-31" target="33rp73bKP2H85NoBWVEx-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="33rp73bKP2H85NoBWVEx-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;创建玩家映射实体&lt;/h1&gt;&lt;div&gt;本质上就是往PlayerComponent挂Player组件，并且把玩家Id返回给客户端&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="33rp73bKP2H85NoBWVEx-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;创建玩家映射实体&lt;/h1&gt;&lt;div&gt;本质上就是往PlayerComponent挂Player组件，并且把玩家Id返回给客户端，并且在session和PlayerComponent之间建立相互映射的关系&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="585" width="310" height="120" as="geometry" />
         </mxCell>
         <mxCell id="33rp73bKP2H85NoBWVEx-33" value="登录完成，进入游戏逻辑&lt;br&gt;（主界面或者，进入主城）" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">

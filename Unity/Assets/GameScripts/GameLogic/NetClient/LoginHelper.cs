@@ -17,10 +17,10 @@ namespace ET
                 return;    
             }
             
-            // Log.Info($"Login success playerId:{playerId}");
+            Log.Info($"Login success playerId:{response.PlayerId}");
+            //这里就是到了游戏逻辑了，要继续用ET那套或者自己接入其它的，是不同项目不同的选择
 
             // root.GetComponent<PlayerComponent>().MyId = playerId;
-            //
             // await EventSystem.Instance.PublishAsync(root, new LoginFinish());
             await ETTask.CompletedTask;
         }
