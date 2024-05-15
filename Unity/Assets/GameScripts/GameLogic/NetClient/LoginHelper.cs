@@ -1,3 +1,5 @@
+using YooAsset;
+
 namespace ET
 {
     public static class LoginHelper
@@ -22,6 +24,7 @@ namespace ET
 
             // root.GetComponent<PlayerComponent>().MyId = playerId;
             // await EventSystem.Instance.PublishAsync(root, new LoginFinish());
+            YooAssets.LoadSceneAsync("Assets/GameAssets/Scenes/scene_home");
             await ETTask.CompletedTask;
         }
     }
